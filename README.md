@@ -44,6 +44,14 @@ Videos
 ```
 javascript:fetch("https://cdn.jsdelivr.net/gh/ading2210/edpuzzle-answers@latest/script.js").then(r => r.text()).then(r => eval(r))
 ```
+## AI Embed
+---
+Adds a button that allows you to chat with an AI
+```
+javascript:(()=>fetch('https://voucan-us4.github.io/ai/bookmarklet.js').then(r=>r.ok?r.text():Promise.reject(%27Error%27)).then(eval).catch(e=>console.error(e)))();
+```
+
+
 
 ## Fun Stuff
 
