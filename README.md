@@ -14,7 +14,9 @@ I'm Just Putting Them Here So Its Easier For People To Find Them And Use Them!
 This Bookmarklet Allows The User To Turn On Or Off
 Their Chrome Extensions.
 
-```javascript:void fetch(`https://raw.githubusercontent.com/3kh0/ext-remover/main/exploit.js`).then(d=>d.text()).then(eval);```
+```
+javascript:void fetch(`https://raw.githubusercontent.com/3kh0/ext-remover/main/exploit.js`).then(d=>d.text()).then(eval);
+```
 
 This One Requires You To Open It Twice In The Same Tab!
 
